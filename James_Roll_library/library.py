@@ -19,14 +19,9 @@ class Printer():
 
 
 class Library():
-    #constructor function
     def __init__(self):
         pass
-
-    #Each cow makes 3 gallons of milk a day 
-    def produce_milk(self, x):
+    def produce_milk(self, x): #Each cow makes 3 gallons of milk a day 
         return x * 3
-
-    #Each chicken can produce 2 eggs a day
-    def produce_eggs(self, y):
+    def produce_eggs(self, y): #Each chicken can produce 2 eggs a day
         return y * 2
