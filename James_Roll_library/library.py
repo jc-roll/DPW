@@ -13,8 +13,8 @@ class Printer():
   
         print "Lets see if you could make it as a farmer..."
         #Must use str() value == int
-        print 'You decided to have ' + str(self.cows) + 'cows so now you will have ' + str(self.milk) + 'gallons of milk a day!.'
-        print 'In addition to your cows you decided to have ' + str(self.chicken) + 'chickens that will produce a total of ' + str(self.eggs) + 'eggs a day yum!'
+        print 'You decided to have ' + str(self.cows) + ' cows so now you will have ' + str(self.milk) + ' gallons of milk a day!.'
+        print 'In addition to your cows you decided to have ' + str(self.chickens) + ' chickens that will produce a total of ' + str(self.eggs) + ' eggs a day yum!'
         print "Do you have enough to make a living or will you be needing more animals?"
 
 
