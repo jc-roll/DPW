@@ -1,8 +1,8 @@
 import library #This imports my library one cannot work without the other
 
 class Main_Handler:
-	#constructor func
-	def __init__(self):
+    #constructor func
+    def __init__(self):
         #declaring attributes from library
         self.printer = library.Printer()
         self.library = library.Library()
